@@ -1,12 +1,12 @@
 #!/bin/bash
 
-git config --global user.name "$ENV_GIT_USERNAME"
-git config --global user.email "$ENV_GIT_EMAIL"
+git config --global user.name "Marco Giesen"
+git config --global user.email "marco.giesen93@gmail.com"
 git config --global color.ui auto
 git config --global core.editor vim
 git config --global core.excludesfile '~/environment/files/gitignore'
 git config --global push.default "current"
-git config --global help.autocorrect 3000
+git config --global help.autocorrect 0
 git config --global branch.autosetuprebase always
 git config --global fetch.prune true
 git config --global pull.rebase true
