@@ -22,7 +22,7 @@ confirm "configure bash" \
     && source ./scripts/bashrc_server.sh
 
 confirm "install brew" \
-    && source ./scripts/brew.sh
+    && source ./scripts/brew.sh \
     && confirm "install packages" \
     && source ./scripts/brew_packages.sh
 
